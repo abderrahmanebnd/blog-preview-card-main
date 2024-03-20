@@ -1,35 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Blog preview card</title>
-  <link rel="stylesheet" href="./css/tailwind.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="32x32"
+      href="./assets/images/illustration-article.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blog preview card</title>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+  </head>
+  <body
+    class="bg-primary min-h-screen my-4 grid place-content-center font-Figtree"
+  >
+    <main
+      class="max-w-sm m-auto bg-white p-5 rounded-2xl border border-black overflow-hidden shadow-[10px_10px] hover:shadow-[15px_15px] transition-shadow duration-300"
+    >
+      <img
+        src="assets/images/illustration-article.svg"
+        class="m-auto rounded-lg mb-4"
+      />
+      <h3 class="bg-primary w-fit px-4 py-2 mb-2 rounded-md font-bold">
+        Learning
+      </h3>
 
-</head>
-<body class="bg-primary min-h-screen my-4 grid place-content-center font-Figtree">
-  <main class="max-w-sm m-auto bg-white p-5 rounded-2xl border border-black overflow-hidden shadow-[10px_10px] hover:shadow-[15px_15px] transition-shadow duration-300">
+      <p class="font-semibold text-sm tracking-wide">Published 21 Dec 2023</p>
 
-    <img src="assets/images/illustration-article.svg" class="m-auto rounded-lg mb-4">
-    <h3 class="bg-primary  w-fit px-4 py-2 mb-2 rounded-md font-bold">Learning</h3>
-    
-    <p class="font-semibold text-sm tracking-wide">Published 21 Dec 2023</p>
-    
-    <a class="  block cursor-pointer font-bold text-2xl my-3 hover:text-primary transition-colors duration-300">HTML & CSS foundations</a>
-    
-    <p class="text-gray-400 mb-3">
-      These languages are the backbone of every website, defining structure, content, and presentation.
-    </p>
-    <div class="flex items-center gap-3">
-      <img src="assets/images/image-avatar.webp" class="w-10 cursor-pointer">
-      <p class="text-sm- font-bold">Greg Hooper</p>
-    </div>
-  </main>
+      <a
+        class="block cursor-pointer font-bold text-2xl my-3 hover:text-primary transition-colors duration-300"
+        >HTML & CSS foundations</a
+      >
 
-</body>
+      <p class="text-gray-400 mb-3">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+      <div class="flex items-center gap-3">
+        <img
+          src="assets/images/image-avatar.webp"
+          class="w-10 cursor-pointer"
+        />
+        <p class="text-sm- font-bold">Greg Hooper</p>
+      </div>
+    </main>
+  </body>
 </html>
